@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+    border-radius: 10%;
+
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(hh.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about img{
+    height: auto;
+    width: 400px;
+    border-radius: 50%;
+    border-style: dotted solid double dashed;
+    border-width: 5px;
+    border-color: coral;
+
+}
+
+.about-text{
+    width: 550px;
+}
+
+.about-text h2{
+    color: black;
+    font-size: 60px;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.about-text h2:hover{
+    text-shadow: lightpink 3px 0;
+}
+
+.about-text p{
+    color: beige;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(192, 228, 192);
+}
+
+.wrapper {
+    margin: 70px auto;
+    width: 70%;
+}
+
+.wrapper h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+.wrapper img {
+    max-width: 320px;
+    float: left;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 50px 10px;
+    margin-right: 15px;
+}
+
+.text{
+    color: coral;
+}
+
+.text h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper2 {
+    margin: 200px auto;
+    width: 100%;
+}
+
+.wrapper2 img {
+    max-width: 220px;
+    float: right;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10px 50px;
+    margin-right: 15px;
+}
+
+.text2{
+    color: coral;
+}
+
+.text2 h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper3 {
+    margin: 280px auto;
+    width: 100%;
+}
+
+.wrapper3 img {
+    max-width: 280px;
+    float: left;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.text3{
+    color: coral;
+}
+
+.text3 h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper4 {
+    margin: 300px auto;
+    width: 100%;
+}
+
+.wrapper4 img {
+    max-width: 300px;
+    float: right;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 50px 10px;
+    margin-right: 15px;
+}
+
+.text4{
+    color: coral;
+}
+
+.text4 h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wrapper5 {
+    margin: 150px auto;
+    width: 100%;
+}
+
+.wrapper5 img {
+    max-width: 340px;
+    float: left;
+    border-style: inset;
+    border-width: 5px;
+    border-radius: 10px 50px;
+    margin-right: 15px;
+}
+
+.text5{
+    color:  coral;
+}
+
+.text5 h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
